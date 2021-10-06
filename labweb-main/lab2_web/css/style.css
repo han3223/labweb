@@ -1,0 +1,117 @@
+#block{
+	width: 300px;
+	background-color: #A5A993;
+	padding: 20px 0;
+	border-radius: 15px;
+	text-align: center;
+	position: absolute;
+	margin: 0 auto;
+}
+
+input, select {
+	margin: 10px auto;
+	display: block;
+	height: 30px;
+	outline: none;
+	border-radius: 15px;
+}
+
+#subform{
+	border: none;
+}
+
+input[type="submit"]:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+
+input[type="submit"]{
+	width: 150px;
+	cursor: pointer;
+}
+
+input:required{
+	border-color: red;
+}
+
+input:valid{
+	border-color: green;
+}
+
+input:invalid{
+	border-color: red;
+}
+
+
+/*########################################################################*/
+
+*{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+#top { 
+	background: #e3e8cc; 
+	border: solid 1px black; 
+	padding: 10px 0 10px 10px; 
+	margin-bottom: 5px;
+	font-size: 24px; 
+	font-weight: bold;
+} 
+
+#menu {  
+	width: 20%; 
+	background: #e3e8cc; 
+	border: solid 1px black; 
+	float: right;  
+	padding: 3px; 
+	position: sticky;
+} 
+
+#content {  
+	background: #e3e8cc;  
+	border: solid 1px black; 
+	margin-right: 21%;  
+	margin-bottom: 5px;
+	padding: 20px 0;
+} 
+
+#content p{ 
+	padding: 3px; 
+} 
+
+#bottom { 
+	background: #e3e8cc;  
+	border: solid 1px black; 
+	padding: 3px; 
+}
+
+/*######################################################################*/
+
+#form_block{
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100000px;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: -99;
+    opacity: 0;
+}
+
+#background_block{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.55;
+}
+
