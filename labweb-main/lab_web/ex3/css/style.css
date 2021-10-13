@@ -1,0 +1,22 @@
+.block_test{
+	width: 500px;
+	background-color: darkcyan;
+	padding: 20px;
+}
+
+#one_qe, #two_qe, #three_qe{
+	width: 100%;
+}
+
+input[type="submit"]{
+	margin: 10px 150px;
+	width: 200px;
+	height: 25px;
+	border: none;
+}
+
+input[type="submit"]:hover{
+	background-color: grey;
+}
+
+
